@@ -1,0 +1,67 @@
+{
+  "subject": "phone",
+  "columns": [{
+    "key": "price",
+    "full_name": "Price (Eur)",
+    "type": "NUMERIC",
+    "is_objective": true,
+    "goal": "MIN"
+  }, {
+    "key": "RAM",
+    "full_name": "RAM (MB)",
+    "type": "NUMERIC",
+    "is_objective": false,
+    "goal": "MAX"
+  }, {
+    "key": "weight",
+    "full_name": "Weight (gr)",
+    "type": "NUMERIC",
+    "is_objective": true,
+    "goal": "MIN"
+  }],
+  "options": [{
+    "key": " 1",
+    "name": "Samsung Galaxy S4 White",
+    "values": {
+      "weight": 130,
+      "price": 239,
+      "RAM": 2048
+    }
+  }, {
+    "key": "2",
+    "name": "Samsung Galaxy S4 Black",
+    "values": {
+      "weight": 130,
+      "price": 240,
+      "RAM": 2048
+    }
+  }, {
+    "key": "3",
+    "name": "Samsung Galaxy S3 White",
+    "values": {
+      "weight": 133,
+      "price": 79,
+      "RAM": 2048
+    }
+  }
+  , {
+    "key": "4",
+    "name": "Samsung Galaxy J1 White",
+    "values": {
+      "weight": 100,
+      "price": 99,
+      "RAM": 1024
+    }
+  }, {
+    "key": "5",
+    "name": "Samsung Galaxy J2 Black",
+    "values": {
+      "weight": 125,
+      "price": 499,
+      "RAM": 4096
+    }
+  }
+  
+  
+  ]
+}
